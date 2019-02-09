@@ -3673,8 +3673,8 @@ client.on("message", async message => {
 client.on("message", message => { //clear
               var args = message.content.substring(prefix.length).split(" ");
               if (message.content.startsWith(prefix + "clear")) {
-                  if(!message.channel.guild) return message.reply('**? اسف لكن هذا الامر للسيرفرات فقط **');         
-     if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('**?  لا يوجد لديك صلاحية لمسح الشات**');
+                  if(!message.channel.guild) return message.reply('**?  معلش لكن هذا الامر للسيرفرات فقط **');         
+     if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('**?  المره الجايه**');
           var msg;
           msg = parseInt();
         
