@@ -3405,8 +3405,7 @@ possibleInvites.push([inviteCount, exec]);
             .setAuthor(message.author.username, message.author.avatarURL)
         .setFooter(`${message.guild.name} `)
      message.channel.send(embed500)
-     message.author.send('` انت معاقب ميوت شاتي بسبب نشر سرفرات ان كان عن طريق الخطا من فضلك تكلم مع الادارة `');
-   
+     message.author.send('` خد ميوت لان انت مش مؤدب
        
     }
 })
