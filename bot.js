@@ -3680,7 +3680,7 @@ client.on("message", message => { //clear
         
         message.channel.fetchMessages({limit: msg}).then(messages => message.channel.bulkDelete(messages)).catch(console.error);
         message.channel.sendMessage("", {embed: {
-          title: "``تــم مسح الشات ``",
+          title: "``تــم فشخ الشات ``",
           color: 0x5016f3, 
           footer: {
             
